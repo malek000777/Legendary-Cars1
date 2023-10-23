@@ -1,9 +1,12 @@
 body {
     font-family: cinzel;
     font-weight: 400;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: rgb(27, 27, 27);
 }
+
 /*Headings and logo*/
+
 h1 {
 font-family: cinzel Decorative;
 font-weight: bold;
@@ -11,10 +14,12 @@ font-weight: bold;
 #logo {
     text-align: center;
 }
+
 /*navigation links*/
+
 .topmenu {
     overflow: hidden;
-    background: #ffffff;
+    background: rgba(225, 225, 225, 0.938);
 }
 .topmenu a {
     margin: 100px;
@@ -25,6 +30,29 @@ font-weight: bold;
     font-size: 30px;
 }
 .topmenu a:hover {
-color:rgba(138,138,138,0.938)
+color: rgb(91, 91, 91)
 }
 
+/*start-bently*/
+
+.start {
+   background-size: cover;
+   background-position: center;
+   height: 450px;
+   padding: 10px;
+   background-image: url(../images/start.jpg);
+   box-shadow: 0 4px 8px 0 rgba(183, 183, 183, 0.19), 0 6px 20px 0 rgba(221, 221, 221, 0.19);
+}
+
+/*background-text-start*/
+
+ .start h1 {
+    font-family: cinzel;
+    font-size: 30px;
+    text-align: center;
+ }
+ .start p {
+    font-family: cinzel;
+    font-size: 20px;
+    text-align: center;
+ }
