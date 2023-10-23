@@ -1,3 +1,13 @@
 body{
     font-family: cinzel;
+    font-weight: 400;
+    color: black;
+}
+/*Headings and logo*/
+h1 {
+font-family: cinzel Decorative;
+font-weight: bold;
+}
+#logo{
+    text-align: center;
 }
