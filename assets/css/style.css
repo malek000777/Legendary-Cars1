@@ -1,4 +1,4 @@
-body{
+body {
     font-family: cinzel;
     font-weight: 400;
     color: black;
@@ -8,6 +8,22 @@ h1 {
 font-family: cinzel Decorative;
 font-weight: bold;
 }
-#logo{
+#logo {
     text-align: center;
+}
+/*navigation links*/
+.topmenu {
+    overflow: hidden;
+    background: #ffffff;
+}
+.topmenu a {
+    margin: 100px;
+    color: black;
+    text-align: center;
+    padding: 1.3rem;
+    text-decoration: none;
+    font-size: 30px;
+}
+.topmenu a:hover{
+color:rgba(138,138,138,0.938)
 }
